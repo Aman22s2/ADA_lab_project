@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+n_values = [16,32,64,128,256]
+time_values=[0.000215,0.001646,0.011089,0.050538,0.367375] # in seconds
+plt.plot(n_values, time_values, marker='o')
+plt.title("Divide & Conquer Matrix Multiplication: Time vs Matrix Size")
+plt.xlabel("Matrix Size (n x n)")
+plt.ylabel("Time Taken (seconds)")
+plt.grid(True)
+plt.show()
